@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, it creates a hidden .git file in the folder you are creating your repoitory in. It contains metadata that helps tracking files and their recent changes. We need to initialize so that the .git file is created and the tracking metadata can be stored thus identifying this folder as a repository as opposed to being a normal folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is like a holding area before commiting to the repository from the actual working directories. This allows us to only add certain files one at a time as per the one logical change per commit rule. It makes sure that not all changes within a working directory are necessary to be stored in the repository thus reducing clutter.
