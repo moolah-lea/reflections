@@ -13,3 +13,7 @@ After making changes on a few files (one feature/fixed bug), for example, you ma
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches will be particularly useful when you want to experiment a new feature or perhaps introduce a new language of your current program. This way, rather than disrupting the main (master) branch, you can create a separate branch and test things out there. Keeps the codes organized and clean as it breaks away from the main branch when trying these new add-ons, thus allowing the main program to remain functional.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams, show the difference between checking out commits and checking out Branches. It also shows how it could be beneficial to always create a branch when working on some new added features from a previous commit. This gives for a well documented manner for all final changes to merge with the Master branch as it is also being concurrently worked on.
