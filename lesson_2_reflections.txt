@@ -5,3 +5,7 @@ When you initialize a repository, it creates a hidden .git file in the folder yo
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is like a holding area before commiting to the repository from the actual working directories. This allows us to only add certain files one at a time as per the one logical change per commit rule. It makes sure that not all changes within a working directory are necessary to be stored in the repository thus reducing clutter.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+After making changes on a few files (one feature/fixed bug), for example, you may add it to the staging area. For every file that was changed to implement this feature/bug fix, git diff and add only the files that count within that change to the staging area. This way, when you git commit, you are certainly only commiting every time there is one logical change.
