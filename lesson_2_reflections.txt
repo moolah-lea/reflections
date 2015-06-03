@@ -9,3 +9,7 @@ Staging area is like a holding area before commiting to the repository from the 
 How can you use the staging area to make sure you have one commit per logical change?
 
 After making changes on a few files (one feature/fixed bug), for example, you may add it to the staging area. For every file that was changed to implement this feature/bug fix, git diff and add only the files that count within that change to the staging area. This way, when you git commit, you are certainly only commiting every time there is one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches will be particularly useful when you want to experiment a new feature or perhaps introduce a new language of your current program. This way, rather than disrupting the main (master) branch, you can create a separate branch and test things out there. Keeps the codes organized and clean as it breaks away from the main branch when trying these new add-ons, thus allowing the main program to remain functional.
