@@ -23,3 +23,7 @@ What is the result of merging two branches together? Why do we represent it in t
 When you merge, Git actually tries to make a logic out of which lines are supposed to be there and which are purposely omitted especially when there are a number of collaborators. When we begin work on a new branch and feel like it is ready for deployment, some other changes could have been taking place in the Master branch. More so, another colleague might also be working on another branch and ready to merge her codes with the Master branch. As such, it only adds whats necessary and removes those that seem like they were left out on purpose. 
 
 The reason we present it like this, is to have a logical path of commits based on chronological order and all commits have a parent to be compared to.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic merging are beneficial when it is certain the changes were not made on the same codes. This way, it should not break the overall flow of the program. However, it is best to manually merge files as you will be able to clarify with the person who modified the same codes as you did to try and understand why they did it that way. This increases the overall efficiency of the program.
