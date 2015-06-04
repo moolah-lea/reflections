@@ -17,3 +17,9 @@ Branches will be particularly useful when you want to experiment a new feature o
 How do the diagrams help you visualize the branch structure?
 
 The diagrams, show the difference between checking out commits and checking out Branches. It also shows how it could be beneficial to always create a branch when working on some new added features from a previous commit. This gives for a well documented manner for all final changes to merge with the Master branch as it is also being concurrently worked on.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When you merge, Git actually tries to make a logic out of which lines are supposed to be there and which are purposely omitted especially when there are a number of collaborators. When we begin work on a new branch and feel like it is ready for deployment, some other changes could have been taking place in the Master branch. More so, another colleague might also be working on another branch and ready to merge her codes with the Master branch. As such, it only adds whats necessary and removes those that seem like they were left out on purpose. 
+
+The reason we present it like this, is to have a logical path of commits based on chronological order and all commits have a parent to be compared to.
