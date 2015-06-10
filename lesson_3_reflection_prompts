@@ -6,3 +6,11 @@ working on the cloud. You can virtually work from anywhere in that case.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because we operate on branches, sometimes certain changes you make locally are not meant to be released publicly. Like when you are trying to implement a new feature or patching a bug that requires a few files to be worked on and to do so without affecting the current working version available online. If you have multiple collaborators, not all changes are expected to be a great fit for the rest. You want to have a control mechanism in place to ensure only the working and accepted version are being commited and made online for others to use.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are clones that you make of other GitHub repositories primarily because you do not have permission to make changes directly to that particular project. You can fork that repository to work on your local com by git cloning it. This way, there is a tracking method to know where the actual origin of this code comes from. Forks are clones made on GitHub.
+
+Clones are the exact duplicate of the repository or its requested branch on to your local machine or on GitHub.
+
+Branches are basically a single repository on a local machine with multiple commits. There has been no duplicates of this project anywhere else.
