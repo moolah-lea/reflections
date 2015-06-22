@@ -14,3 +14,11 @@ Forks are clones that you make of other GitHub repositories primarily because yo
 Clones are the exact duplicate of the repository or its requested branch on to your local machine or on GitHub.
 
 Branches are basically a single repository on a local machine with multiple commits. There has been no duplicates of this project anywhere else.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This way, whatever changes we have done locally and without an Internet connection, can be reflected remotely, by knowing which was the last copy that was pulled out of the GitHub repository. The difference will then serve as a base point for comparison when it comes time to merge the files to get up-to-date.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Perhaps we could use other enterprise style programs for version-control. Although it will not be as accessible as GitHub, it allows for collabortive work. The other way is to use Cloud services like Dropbox. Or the traditional method of emails and timestamps. Manually amending merges and commits.
